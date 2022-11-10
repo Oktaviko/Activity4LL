@@ -12,6 +12,15 @@ namespace Activity4LL
         public string nama;
         public Node next;
     }
+    class List
+    {
+        Node START;
+        public List()
+        {
+            START = null;
+        }
+        //Method untuk menambahkan sebuah node kedalam list
+    }
     class Program
     {
         static void Main(string[] args)
