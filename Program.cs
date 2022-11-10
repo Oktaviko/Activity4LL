@@ -28,6 +28,17 @@ namespace Activity4LL
             nim = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\nMasukkan nama mahasiswa: ");
             nm = Console.ReadLine();
+            Node nodeBaru = new Node();
+
+            //Node ditambahkan sebagai node pertama
+            if (START == null || nim <= START.noMhs)
+            {
+                if ((START == null) && (nim == START.noMhs))
+                {
+                    Console.WriteLine("\nMasukkan mahasiswa sama tidak diizinkan  ");
+                }
+                
+            }
         }
     }
     class Program
