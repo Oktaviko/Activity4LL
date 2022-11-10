@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Activity4LL
@@ -62,8 +64,39 @@ namespace Activity4LL
             nodeBaru.next = current;
             previous.next = current;
         }
+        //method untuk mmenghapus node tertentu didalam list 
+        public bool delNode(int nim)
+        {
+            Node previous, current;
+            previous = current = null;
+            //check apakah node yang dimaksud ada didalam list atau tidak
+            if (Search(nim, ref previous, ref current) == false)
+                return false;
+            previous.next = current.next;
+            if (current == START)
+            
+                START = START.next;
+                return true;
+            
+        }
+        //Method untuk mengecek apakah node yang dimaksud ada didalam list atau tidak
+        public bool Search (int nim, ref Node previous, ref Node current)
+        {
+            previous = current;
+            while((current != null) && (nim >= current.noMhs))
+            {
+                previous = current;
+                current = current.next;
+            }
+            if (current == null)
+                return (false);
+            else
+                return(true);
+        }
+        
+
     }
-    
+   
     class Program
     {
         static void Main(string[] args)
