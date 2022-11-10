@@ -29,6 +29,8 @@ namespace Activity4LL
             Console.WriteLine("\nMasukkan nama mahasiswa: ");
             nm = Console.ReadLine();
             Node nodeBaru = new Node();
+            nodeBaru.noMhs = nim;
+            nodeBaru.nama = nm;
 
             //Node ditambahkan sebagai node pertama
             if (START == null || nim <= START.noMhs)
