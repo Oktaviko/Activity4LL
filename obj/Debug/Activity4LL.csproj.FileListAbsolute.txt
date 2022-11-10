@@ -1,0 +1,8 @@
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\bin\Debug\Activity4LL.exe.config
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\bin\Debug\Activity4LL.exe
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\bin\Debug\Activity4LL.pdb
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\obj\Debug\Activity4LL.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\obj\Debug\Activity4LL.csproj.SuggestedBindingRedirects.cache
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\obj\Debug\Activity4LL.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\obj\Debug\Activity4LL.exe
+C:\Users\asus\OneDrive - Universitas Muhammadiyah Yogyakarta\AlgoritmaStrukturData\Activity4LL\obj\Debug\Activity4LL.pdb
