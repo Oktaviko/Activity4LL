@@ -20,6 +20,15 @@ namespace Activity4LL
             START = null;
         }
         //Method untuk menambahkan sebuah node kedalam list
+        public void addNoote()
+        {
+            int nim;
+            string nm;
+            Console.WriteLine("\nMasukkan nomer mahasiswa: ");
+            nim = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nMasukkan nama mahasiswa: ");
+            nm = Console.ReadLine();
+        }
     }
     class Program
     {
